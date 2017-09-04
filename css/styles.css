@@ -1,0 +1,145 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #333;
+	font-weight: 300;
+}
+
+.logo {
+	padding: 0;
+}
+
+.toprow {
+	margin: 0 -15px 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.project-links, 
+.zocial-facebook, 
+.zocial-linkedin, 
+.zocial-googleplus {
+    font-size: 3vw;
+    padding: 10px;
+    text-align: center;
+    width: 33.333%;
+}
+
+.text-uppercase {
+    font-size: 3vw;
+}
+
+.col-md-6 .img-responsive:hover {
+	filter: drop-shadow(4px 4px 4px #ddd);
+	cursor: pointer;
+}
+
+.col-md-6 {
+	margin-bottom: 20px;
+}
+
+.col-md-12 {
+	padding: 0 0 25px 0;
+    width: 100%;
+}
+
+.col-md-12.social,
+.col-md-12.secondrow {
+	padding-bottom: 0;
+}
+
+.img-responsive {
+    display: block;
+    margin: auto;
+}
+
+.text-muted {
+	color: #bcbbbb;
+	font-size: 5vw;
+	text-align: center;
+	padding-top: 30px;
+	border-top: 1px solid #ccc;
+	margin-top: 50px;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 6vw;
+}
+
+.title-logo {
+	margin-top: 20px;
+	max-width: 10vw;
+}
+
+[class*="zocial-"]:before {
+  color: grey;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+.social {
+  line-height: 3em;
+  margin: 1vw 0 5vw 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+}
+
+/* @media used for formatting at
+minor and major breakpoints. Images changes
+done with srcset in html*/
+
+@media screen and (max-width: 250px) {
+	.zocial-facebook, 
+	.zocial-linkedin, 
+	.zocial-googleplus,
+	.project-links {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.zocial-facebook, 
+	.zocial-linkedin, 
+	.zocial-googleplus, 
+	.project-links {
+		margin: 0;
+		padding: 5px;
+	}
+	.col-md-12 {
+		padding: 0;
+	}
+	.text-muted {
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.row {
+		display: flex;
+	}
+	.col-md-6 {
+		width: 50%;
+		font-size: 2vw;
+	}
+	.text-muted {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.zocial-facebook, 
+	.zocial-linkedin, 
+	.zocial-googleplus, 
+	.project-links {
+		font-size: 2.5vw;
+		padding: 40px 5px 40px 5px;
+	}
+}
+
+
+
